@@ -1,49 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <!-- Code for header section -->
     <header class="header">
         <!-- Code start for nav-bar -->
         <nav class="nav-bar">
-           <div class="logo-section">
+            <div class="logo-section">
                 <img src="assets/logo.png" alt="">
                 <h2 class="web-title">SCHOOL</h2>
-           </div>
-           <div class="nav-items">
+            </div>
+            <div class="nav-items">
                 <ul>
                     <li class="nav-items"><a class="item-1 item" href="">Home</a></li>
-                    <li class="nav-items"><a class="item-2 item"href="">About</a></li>
-                    <li class="nav-items"><a class="item-3 item"href="">Facilities</a></li>
-                    <li class="nav-items"><a class="item-4 item"href="">Admission</a></li>
+                    <li class="nav-items"><a class="item-2 item" href="">About</a></li>
+                    <li class="nav-items"><a class="item-3 item" href="">Facilities</a></li>
+                    <li class="nav-items"><a class="item-4 item" href="">Admission</a></li>
                 </ul>
-           </div>
-           <button class="btn-nav btn-primary">Contact</button>
-           <span class="material-symbols-outlined" id="menu">
-            menu
+            </div>
+            <button class="btn-nav btn-primary">Contact</button>
+            <span class="material-symbols-outlined" id="menu">
+                menu
             </span>
         </nav>
+        <hr class="hr-line">
         <!-- Code start for Banner section -->
         <div class="banner-section">
             <div class="banner-content">
                 <h3 class="banner-title"><span id="banner-taxt-1">Empowering</span>
                     students from small age <span id="banner-taxt-2">towards vision</span></h2>
-                <p class="banner-description">With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.</p>
-                <button class="banner-btn btn-primary">Enroll Now</button>
+                    <p class="banner-description">With the courage, Confidence, Creativity and Compassion to make their
+                        Unique Contribution in a Diverse and Dynamic World.</p>
+                    <button class="banner-btn btn-primary">Enroll Now</button>
             </div>
             <div class="banner-img-box">
                 <img src="assets/hero-kids.png" alt="" class="banner-img">
             </div>
         </div>
     </header>
+    <!-- Start coding for main section -->
+    <main>
+        <section class="curriculum-section">
+            <div class="curriculum">
+                <h3 class="curriculum-section-title">Standard Curriculum</h3>
+                <div class="curriculum-card">
+                    <div class="curriculum-item curriculum-item-1">
+                        <img class="curriculum-item-img" src="assets/kinder.png" alt="">
+                        <h5 class="card-title">Kinder (3-6) Years</h5>
+                        <p class="card-description">Cum sociis natoque penatibus et magnis
+                            dis parturient montes, nascetur ridiculus
+                            mu sdis parturient</p>
+                        <p id="card-more-1" class="card-more">Read More</p>
+                    </div>
+                    <div class="curriculum-item curriculum-item-2">
+                        <img class="curriculum-item-img" src="assets/elementary.png" alt="">
+                        <h5 class="card-title">Elementary School</h5>
+                        <p class="card-description">Cum sociis natoque penatibus et magnis
+                            dis parturient montes, nascetur ridiculus
+                            mu sdis parturient</p>
+                        <p id="card-more-2" class="card-more">Read More</p>
+                    </div>
+                    <div class="curriculum-item curriculum-item-3">
+                        <img class="curriculum-item-img" src="assets/middle.png" alt="">
+                        <h5 class="card-title">Middle (10-16) Years</h5>
+                        <p class="card-description">Cum sociis natoque penatibus et magnis
+                            dis parturient montes, nascetur ridiculus
+                            mu sdis parturient</p>
+                        <p id="card-more-3" class="card-more">Read More</p>
+                    </div>
+                </div>
+                <div class="img-box">
+                    <div class="img-box1"><i class="fa-solid fa-less-than"></i></div>
+                    <div class="img-box2"><i class="fa-solid fa-greater-than"></i></i></div>
+                </div>
+            </div>
+        </section>
+        <!-- code for stories section -->
+        <section class="stories">
+            <div class="stories-section">
+                <h2 class="stories-title">Our Stories</h2>
+                <div class="stories-card-section">
+                    <div class="stories-card-bg">
+                        <div class="stories-card-img">
+                            <button class="stories-btn-big">November 19, 2019</button>
+                        </div>
+                        <div class="stories-card-content-bg">
+                            <h4 class="stories-card-big-title">A fun toddler coloring training on
+                                classroom</h4>
+                            <p class="stories-card-big-decscript">Beautiful branding for changes by Never Now in Australia.
+                                changes is a platform for open discussion in an inclusive and
+                                collaborative environment, providing the...</p> 
+                        </div>
+                    </div>
+                    <div class="smalls-card">
+                        <div class="stories-card-small">
+                            <img src="assets/story-2.png" alt="" class="stories-card-sm-img">
+                            <button class="stories-btn">November 19, 2019</button>
+                            <div class="stories-card-content">
+                                <h5 class="sm-content">Find out if a school fits the
+                                    family’s needs</h5>
+                            </div>
+                        </div>
+                        <div class="stories-card-small">
+                            <img src="assets/story-3.png" alt="" class="stories-card-sm-img">
+                            <button  class="stories-btn">September 10, 2019</button>      
+                            <div class="stories-card-content">
+                                <h5 class="sm-content">Classroom management
+                                    techniques for new tutors</h5>
+                            </div>
+                        </div>
+                        <div class="stories-card-small">
+                            <img src="assets/story-4.png" alt="" class="stories-card-sm-img">
+                            <button class="stories-btn">November 19, 2019</button>
+                            <div class="stories-card-content">
+                                <h5 class="sm-content">Summer math & literacy
+                                    centres for kids</h5>
+                            </div>
+                        </div>
+                        <div class="stories-card-small">
+                            <img src="assets/story-5.png" alt="" class="stories-card-sm-img">
+                            <button class="stories-btn">July 19, 2019</button>
+                            <div class="stories-card-content">
+                                <h5 class="sm-content">Conversation rhymes
+                                    improve kids listening</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="stories-bt">View All</button>
+            </div>
+        </section>
+
+    </main>
 </body>
+
 </html>
